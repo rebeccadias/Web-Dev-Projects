@@ -1,0 +1,14 @@
+body{
+    background:url("../images/barbell-on-the-floor-1552252.jpg");
+    background-size: cover;
+    
+}
+
+div{
+    background-color: aquamarine;
+    width: 60% ;
+    border-radius :25px;
+    margin: 200px auto;
+    text-align: center;
+    
+}

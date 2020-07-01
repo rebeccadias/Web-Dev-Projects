@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/pokemonStyle.css">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="parallax.js"></script>
+	<title>Pokemon Website</title>
+
+	<style>
+
+	</style>
+
+</head>
+
+<body>
+
+<!--navbar starts here-->
+<div class="navbar-wrapper">
+    <div class="container">
+       <nav class="navbar navbar-default navbar-inverse navbar-static-top">
+        <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Pokemon </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+             <li><a href="#">Locate Poke</a></li>
+                 <li><a href="#">Catch Poke</a></li>
+                 <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Location<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">CA</a></li>
+                <li><a href="#">LN</a></li>
+                <li><a href="#">DXB</a></li>
+                <li role="separator" class="divider"></li>
+                <li  class="dropdown-header">Upcoming Gigs</li>
+                <li><a href="#">MU</a></li>
+                <li><a href="#">BOM</a></li>
+
+              </ul>
+            </li>
+          </ul>
+          
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><i class="fa fa-user-plus" aria-hidden="true"></i>
+            Sign In</a></li>
+           
+        
+          </ul>
+        </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+      
+</div><!--    container-->    
+
+</div>  <!-- navbar-wrapper-->
+<!--navbar ends here-->
+
+
+<!--carousel starts here-->
+<div id="MyCR" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+     
+      <img src="images/short-coated-black-and-brown-puppy-in-white-and-red-polka-39317.jpg" alt="Slide 1">
+       <div class="container">
+      <div class="carousel-caption">
+           <h1>Some Heading</h1>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, suscipit?</p>
+           <p><a class="btn btn-default " href="#">Learn More</a></p></div>
+      </div>
+      
+     <div class="carousel-caption">
+     </div>
+    </div>
+    <div class="item">
+      <img src="images/nature-red-forest-leaves-33109.jpg" alt="slide 2">
+           <div class="container"> 
+            <div class="carousel-caption">
+           <h1>Some Heading</h1>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, suscipit?</p>
+           <p><a class="btn btn-default " href="#">Learn More</a></p></div>
+      </div>
+      
+      <div class="carousel-caption">
+      </div>
+    </div>
+    
+     <div class="item">
+      <img src="images/body-of-water-between-green-leaf-trees-709552.jpg" alt="slide 3">
+             <div class="container">
+            <div class="carousel-caption">
+           <h1>Some Heading</h1>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, suscipit?</p>
+           <p><a class="btn btn-default " href="#">Learn More</a></p></div>
+      </div>
+      
+      <div class="carousel-caption">
+  
+      </div>
+    </div>
+    ...
+  </div><!--carousel-inner-->
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+    
+    <!--carousel ends here-->
+    
+    
+    
+<!--team section starts here-->
+    <div class="container team">
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="images/person-love-people-summer-35537.jpg" alt="" class="img-circle animate__animated animate__fadeIn" width="140" height="140">
+                <h1>Team Member 1</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, unde.</p>
+                <a href="#" class="btn btn-default">Sign Up &raquo;</a>
+            </div>
+            <div class="col-lg-4"><img src="images/person-love-people-summer-35537.jpg" alt="" class="img-circle" width="140" height="140"><h1>Team Member 1</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, unde.</p>
+                <a href="#" class="btn btn-default">Sign Up &raquo;</a>
+            </div>
+            <div class="col-lg-4"><img src="images/person-love-people-summer-35537.jpg" alt="" class="img-circle" width="140" height="140"><h1>Team Member 1</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, unde.</p>
+                <a href="#" class="btn btn-default">Sign Up &raquo;</a>
+            </div>
+
+            
+        </div>
+    </div>
+<!--team section ends here-->
+
+
+<br class="divider">
+
+
+<!--content section starts here-->
+
+<div class="row content">
+    <div class="col-md-7 micks">
+       <h2 class="content-heading">
+           First Heading Goes Here. <span class="text-muted">this looks greats</span>
+       </h2>
+       <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit officia mollitia accusamus cum minus corporis voluptates facilis, alias laboriosam explicabo, quaerat voluptatibus, qui voluptate dolores doloribus sapiente, ullam ipsum nostrum!</p>
+    </div>
+    <div class="col-md-5 ">
+       <img src="images/person-love-people-summer-35537.jpg " alt="alt_img" class="content-image img-responsive center-block micks"> 
+    </div>
+</div>
+<div class="row content">
+       <div class="col-md-5">
+           <img src="images/person-love-people-summer-35537.jpg" alt="alt_img" class="content-image img-responsive center-block micks">
+  
+      </div>
+ 
+      <div class="col-md-7 micks " data-parallax="scroll" data-image-src= "pexels.jpeg">
+       
+        <h2 class="content-heading">
+           First Heading Goes Here. <span class="text-muted">this looks greats</span>
+       </h2>
+       <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit officia mollitia accusamus cum minus corporis voluptates facilis, alias laboriosam explicabo, quaerat voluptatibus, qui voluptate dolores doloribus sapiente, ullam ipsum nostrum!</p>
+
+    </div> 
+
+</div><!--row-->
+<div class="row content">
+    <div class="col-md-7 micks">
+       <h2 class="content-heading">
+           First Heading Goes Here. <span class="text-muted">this looks greats</span>
+       </h2>
+       <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit officia mollitia accusamus cum minus corporis voluptates facilis, alias laboriosam explicabo, quaerat voluptatibus, qui voluptate dolores doloribus sapiente, ullam ipsum nostrum!</p>
+    </div>
+    <div class="col-md-5">
+       <img src="images/person-love-people-summer-35537.jpg" alt="alt_img" class="content-image img-responsive center-block micks"> 
+    </div>
+</div>
+
+<!--content section ends here-->
+
+
+<!--footer starts here-->
+<footer>
+   <p class="pull-right"><i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i>
+   
+   Move to Top
+</p>
+    <p >&copy; 2016 Pokemon, Inc. <a href="#">Terms &middot;Conditions</a></p>
+</footer>
+<!--footer ends here-->
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+	<script>
+	</script>
+
+</body>
+
+</html>

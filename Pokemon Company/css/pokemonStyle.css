@@ -1,0 +1,89 @@
+
+body{
+    padding-bottom: 20px;
+}
+
+
+.team .col-lg-4{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.team h1{
+    color: rgba(50 ,50 ,50,.8);
+}
+
+
+
+.navbar-wrapper{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+
+
+.navbar-wrapper .nabvar .container{
+    width:auto;
+}
+
+
+.navbar-wrapper .nabvar{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.navbar-wrapper> .container{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.carousel{
+       height: 500px;
+    margin-bottom: 50px;
+}
+
+/*manje to tag both the classes */
+
+.carousel .item{
+    height: 500px;
+    background-color: #777;
+}
+
+
+
+/*this is how we target img tag*/
+.carousel-inner>.item> img{
+    position: absolute;
+    height: 500px;
+    min-width: 100%;
+    top:0;
+    left:0;
+}
+
+.divider{
+    margin:20px 0;
+}
+
+.micks{
+    padding-left: 50px;
+    padding-top: 50px;
+    
+}
+
+.lead{
+    text-align: center;
+}
+
+
+footer{
+    margin:0 110px;
+    
+}
+
+
+
+
+
+
+

@@ -1,0 +1,65 @@
+.navbar-default .navbar-brand{
+    color: black;
+    
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    background: url(https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Catamaran';
+}
+
+/*
+.navbar-default{
+    
+}*/
+
+#login{
+    min-width: 250px;
+    background-color: rgba(255,255,255,0.7);
+    padding:14px 14px 0;
+    
+}
+
+/*
+#login .social-button{
+    margin:12px 0;
+}
+*/
+
+.btn-fb{
+    color:#fff;
+    background-color: #3b599d;
+}
+.btn-tw{    
+    color:#fff;
+    background-color: #55acee;
+}
+.btn-fb:hover{
+    color:#fff;
+    background-color: #496ebc;
+}
+.btn-tw:hover{    
+    color:#fff;
+    background-color: #55acee;
+}
+
+
+
+
+
+
+.blue{
+    background-color:skyblue;
+    border-radius: 20px;
+    opacity: 0.5;
+}
+
+.center{
+    text-align: center;
+}

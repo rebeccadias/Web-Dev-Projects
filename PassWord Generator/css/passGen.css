@@ -1,0 +1,45 @@
+.output{
+    border-radius :25px;
+    text-align: center;
+    margin-top: 50px;
+
+}
+.output-box{
+    height: 30px;
+    border-radius :5px;
+
+    
+}
+
+
+.container{
+    width: 700px;
+    height: 300px;
+    margin : 0 auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    background-color: #efece9;
+    text-align: center;
+    opacity: 0.9;
+    border-color: #ffc125;
+    border-width: 10px;
+    z-index: 3;
+    
+}
+
+body{
+    background: url("../images/pexels.jpeg");
+    font-family: 'Rosario', sans-serif;
+    z-index: 2;
+}
+
+
+#right{
+    border-radius: 10px;
+}
+
+#input-button{
+    color:	#00dfff;
+}
+
+
